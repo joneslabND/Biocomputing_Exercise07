@@ -6,7 +6,7 @@ write.table(iris_data, "iris.txt", sep = "\t", row.names = FALSE)
 my_listex7 <- list(
   # 1. Vector with length 10, 100-100
   vec10 <- seq(100,1000, by = 100),
-  # 2. Two Col, Two Row data frame Notrde Dame Vs Pitt
+  # 2. Two Col, Two Row data frame Notre Dame Vs Pitt
   NotreDameVsPitt <- data.frame(
     Team = c("Notre Dame", "Pittsburgh"),
     score= c("58","7")),
