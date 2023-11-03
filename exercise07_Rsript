@@ -1,0 +1,30 @@
+##Exercise 07 script
+##Convert comma-delimited iris.csv to tab-delimited version
+# read in csv file
+iris.csv = read.table("iris.csv", sep = ",")
+#replace comma delimiters with tab delimiters
+write.table(iris.csv, file = "iris.txt", sep= "\t")
+
+##Create list
+
+##create vector of lenght 10 counting by 100s 
+hundreds = c(100, 200, 300, 400, 500, 600, 700, 800, 900, 1000)
+
+##create dataframe with team names and score
+#create variables for teams, scores, and dataframe
+teams = c("Notre Dame", "Pittsburg")
+scores = c(58, 7)
+football_game = data.frame(teams, scores)
+
+## Number 999
+num999 = 999
+
+##Matrix with numbers from 1:50
+num50: 1:50
+matrix = matrix(num50, nrow = 10, ncol = 5)
+
+##vector with letters
+letters = c("a", "b", "c")
+
+##create the list
+list = list(hundreds, football_game, num99, matrix, letters)
